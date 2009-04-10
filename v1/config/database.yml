@@ -1,0 +1,20 @@
+development:
+  adapter: mysql
+  database: 3hv_development
+  username: root
+  password: root
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql
+  database: 3hv_test
+  username: root
+  password: root
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql
+  database: threehvc_threehv
+  username: threehvc_threehv
+  password: threehv
+  socket: /tmp/mysql.sock

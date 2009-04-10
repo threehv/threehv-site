@@ -1,0 +1,486 @@
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-01-31 20:59:52) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00167)
+Completed in 3.18761 (0 reqs/sec) | Rendering: 0.03813 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-01-31 21:10:24) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00171)
+Completed in 5.36862 (0 reqs/sec) | Rendering: 0.03900 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:00:48) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00367)
+Completed in 26.78766 (0 reqs/sec) | Rendering: 0.09217 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:03:24) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00214)
+Completed in 4.26405 (0 reqs/sec) | Rendering: 0.24183 (5%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:05:37) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00176)
+Completed in 4.61036 (0 reqs/sec) | Rendering: 0.05985 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:06:20) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00199)
+Completed in 4.47254 (0 reqs/sec) | Rendering: 0.05753 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:07:49) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00176)
+Completed in 3.52556 (0 reqs/sec) | Rendering: 0.04743 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:08:16) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00206)
+Completed in 6.19733 (0 reqs/sec) | Rendering: 0.04677 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:10:37) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+
+
+ActionView::TemplateError (undefined method `li' for #<#<Class:0x3546098>:0x3545fbc>) on line #34 of app/views/home/show.mab:
+31:   h3 "Latest Blog Posts"
+32:   ul do
+33:     @articles.each do | article |
+34:       render_rss article
+35: #       li do
+36: #         link_to h(article.title), article.link, :title => truncate(h(article.description), 50)
+37: #       end
+
+    /Users/rahoulb/Source/threehv/app/helpers/home_helper.rb:3:in `render_rss'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:167:in `send'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:167:in `method_missing'
+    /Users/rahoulb/Source/threehv/app/views/home/show.mab:34:in `render'
+    /Users/rahoulb/Source/threehv/app/views/home/show.mab:33:in `each'
+    /Users/rahoulb/Source/threehv/app/views/home/show.mab:33:in `render'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:106:in `instance_eval'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:106:in `capture'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:143:in `tag!'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:204:in `html_tag'
+    (eval):3:in `ul'
+    /Users/rahoulb/Source/threehv/app/views/home/show.mab:32:in `render'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:106:in `instance_eval'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:106:in `capture'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/builder.rb:143:in `tag!'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/cssproxy.rb:39:in `method_missing'
+    /Users/rahoulb/Source/threehv/app/views/home/show.mab:30:in `render'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/rails.rb:34:in `render'
+    /Users/rahoulb/Source/threehv/vendor/plugins/markaby/lib/markaby/rails.rb:6:in `render_template'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/base.rb:812:in `render_file'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/base.rb:717:in `render_with_no_layout'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/filters.rb:696:in `call_filters'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `perform_action'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    /Users/rahoulb/Source/threehv/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/bin/mongrel_rails:16:in `load'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/bin/mongrel_rails:16
+
+
+Rendering /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2008-02-01 11:11:09) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+
+
+SyntaxError (/Users/rahoulb/Source/threehv/app/helpers/home_helper.rb:3: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+    "<li>" + link_to h(item.title), item.link, :title => truncate(h(item.description), 50).to_s + "</li>"
+                      ^
+/Users/rahoulb/Source/threehv/app/helpers/home_helper.rb:3: syntax error, unexpected ',', expecting kEND
+    "<li>" + link_to h(item.title), item.link, :title => truncate(h(item.description), 50).to_s + "</li>"
+                                   ^
+/Users/rahoulb/Source/threehv/app/helpers/home_helper.rb:3: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+    "<li>" + link_to h(item.title), item.link, :title => truncate(h(item.description), 50).to_s + "</li>"
+                                                        ^):
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:203:in `load_file'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:202:in `load_file'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:442:in `require_dependency'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/helpers.rb:111:in `default_helper_module!'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/helpers.rb:124:in `send'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/helpers.rb:124:in `inherited'
+    /Users/rahoulb/Source/threehv/app/controllers/home_controller.rb:5
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:203:in `load_file'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:202:in `load_file'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:452:in `const_missing'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:464:in `const_missing'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/inflector.rb:250:in `constantize'
+    /Users/rahoulb/Source/threehv/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/routing.rb:1324:in `recognize'
+    /Users/rahoulb/Source/threehv/vendor/rails/railties/lib/dispatcher.rb:40:in `dispatch'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/bin/mongrel_rails:16:in `load'
+    /Applications/Locomotive2/Bundles/rmagickRailsMar2007_ppc.locobundle/framework/bin/mongrel_rails:16
+
+
+Rendering /Users/rahoulb/Source/threehv/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:11:27) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00175)
+Completed in 3.29610 (0 reqs/sec) | Rendering: 0.04196 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:11:31) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00610)
+Completed in 5.11747 (0 reqs/sec) | Rendering: 0.05121 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:12:36) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00163)
+Completed in 2.99843 (0 reqs/sec) | Rendering: 0.04891 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:13:32) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00156)
+Completed in 7.21204 (0 reqs/sec) | Rendering: 0.03605 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:14:16) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00170)
+Completed in 4.20057 (0 reqs/sec) | Rendering: 0.03735 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:15:09) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00183)
+Completed in 5.58469 (0 reqs/sec) | Rendering: 0.24634 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-02-01 11:15:37) [GET]
+  Session ID: 5a2dc5d077c5d6733e656c9b3fb1998e
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00190)
+Completed in 3.58937 (0 reqs/sec) | Rendering: 0.03659 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:46:58) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00134)
+Completed in 2.36617 (0 reqs/sec) | Rendering: 0.04016 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:48:24) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00059)
+Completed in 3.55186 (0 reqs/sec) | Rendering: 0.02432 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:49:27) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00038)
+Completed in 2.20436 (0 reqs/sec) | Rendering: 0.00800 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:49:51) [GET]
+  Session ID: cef76179b33f5cf36124c3772e00d88f
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00042)
+Completed in 4.23254 (0 reqs/sec) | Rendering: 0.00846 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:51:06) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00054)
+Completed in 4.30043 (0 reqs/sec) | Rendering: 0.01834 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:51:27) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00038)
+Completed in 2.71187 (0 reqs/sec) | Rendering: 0.00742 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:52:09) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00041)
+Completed in 3.24287 (0 reqs/sec) | Rendering: 0.00759 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:52:28) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00043)
+Completed in 3.46357 (0 reqs/sec) | Rendering: 0.00788 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:52:48) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00039)
+Completed in 2.26210 (0 reqs/sec) | Rendering: 0.00748 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:53:17) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00038)
+Completed in 3.34825 (0 reqs/sec) | Rendering: 0.00745 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:54:01) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00048)
+Completed in 3.05152 (0 reqs/sec) | Rendering: 0.00998 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:54:46) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00048)
+Completed in 4.04378 (0 reqs/sec) | Rendering: 0.01361 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:55:09) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00041)
+Completed in 4.50305 (0 reqs/sec) | Rendering: 0.00763 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:56:15) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00039)
+Completed in 2.73290 (0 reqs/sec) | Rendering: 0.00715 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:56:45) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00047)
+Completed in 2.38466 (0 reqs/sec) | Rendering: 0.00749 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:57:49) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00051)
+Completed in 2.48891 (0 reqs/sec) | Rendering: 0.01171 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:58:11) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00044)
+Completed in 2.25114 (0 reqs/sec) | Rendering: 0.00796 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:58:40) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00052)
+Completed in 3.44386 (0 reqs/sec) | Rendering: 0.01551 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-03-09 21:59:44) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00049)
+Completed in 2.22220 (0 reqs/sec) | Rendering: 0.01764 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing PagesController#show_by_seo_title (for 127.0.0.1 at 2008-03-09 22:00:13) [GET]
+  Session ID: c1dcd92e96813e486ca9507cd26b33cf
+  Parameters: {"seo_title"=>"about", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering layoutfalseactionabout within layouts/threehv
+Rendering pages/about
+Rendered /layouts/_google_analytics (0.00075)
+Completed in 0.16959 (5 reqs/sec) | Rendering: 0.16879 (99%) | DB: 0.00000 (0%) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2008-05-06 14:24:21) [GET]
+  Session ID: cf4f07e6aaecb4f392c6558c2004418f
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00113)
+Completed in 4.74882 (0 reqs/sec) | Rendering: 0.02628 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing PagesController#show_by_seo_title (for 127.0.0.1 at 2008-05-06 14:24:29) [GET]
+  Session ID: cf4f07e6aaecb4f392c6558c2004418f
+  Parameters: {"seo_title"=>"showcase", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering layoutfalseactionshowcase within layouts/threehv
+Rendering pages/showcase
+Rendered /layouts/_google_analytics (0.00041)
+Completed in 0.04711 (21 reqs/sec) | Rendering: 0.04598 (97%) | DB: 0.00000 (0%) | 200 OK [http://localhost/showcase]
+
+
+Processing PagesController#show_by_seo_title (for 127.0.0.1 at 2008-05-06 14:25:17) [GET]
+  Session ID: cf4f07e6aaecb4f392c6558c2004418f
+  Parameters: {"seo_title"=>"showcase", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering layoutfalseactionshowcase within layouts/threehv
+Rendering pages/showcase
+Rendered /layouts/_google_analytics (0.00039)
+Completed in 0.01990 (50 reqs/sec) | Rendering: 0.01902 (95%) | DB: 0.00000 (0%) | 200 OK [http://localhost/showcase]

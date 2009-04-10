@@ -1,0 +1,26 @@
+web_development:
+  id: 1
+  title: Web Development
+  seo_title: web-development
+  contents: Hello
+about: 
+  id: 2
+  title: About
+  seo_title: about
+  contents: About
+principles: 
+  id: 3
+  title: Principles
+  seo_title: principles
+  contents: Principles
+show_case: 
+  id: 4
+  title: Showcase
+  seo_title: showcase
+  contents: Showcase
+contact: 
+  id: 5
+  title: Contact
+  seo_title: contact
+  contents: Contact
+  

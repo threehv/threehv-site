@@ -1,0 +1,11 @@
+xhtml_strict do
+  head do
+    title @page_title || 'web development by 3hv'
+    stylesheet_link_tag 'threehv'
+  end
+  
+  body do
+    render :partial => '/layouts/google_analytics'
+    self << content_for_layout
+  end
+end

@@ -1,0 +1,43 @@
+h1 "Services offered by 3hv"
+
+h2 "Ruby on Rails Consultancy"
+
+p { "Ruby on Rails is a relatively new technology that has ridden a wave of hype.  Unfortunately this means that there a number of inexperienced developers, claiming to know RoR, who have only a passing knowledge of Rails.  " }
+
+p { "Rahoul Baruah has Ruby on Rails expertise and been building <em>commercial</em> standard Rails sites since 2005.  Coupled with an in-depth knowledge of software design <em>best-practice</em>, 3hv can offer a consultancy service to analyse your Rails project, answer questions and solve any problems you may be having.  " }
+
+p { "Submit your Rails project for consultancy (in full confidence) and within ten working days you will receive a <em>detailed report</em> on the state of your project.  This will be split into three sections - things that require immediate attention, warnings and danger signs and things that have been done well.  Each issue will have a detailed explanation and <em>recommendation for improvement</em>.  " }
+
+p { "Perfect for putting manager's minds at ease, and also great for <em>assisting novice Rails developers</em> learn best-practice, the Rails Consultancy costs &pound;1000.  " }
+
+p.small_print { "If your application is above a certain size (the app folder contains more than 200 files) then there is a surcharge of &pound;300 per 100 files.  There will be limits on the amount of analysis that can be performed if the application requires proprietary technology that is not commonly available (for example certain database or server technologies).  If this is the case, 3hv will inform you as soon as possible - with the option of your money back.  " }
+
+h2 "Software Development"
+
+p { "Need a complex site or custom application building?  3hv excels in Ruby on Rails development - a software framework for achieving web-development <em>quickly and reliably</em>.  " }
+
+p { "With years of experience of turning your requirements into code, we build a suite of automated tests.  These match your specifications and <em>prove</em> that the code does what you need it to do.  The result?  <em>Bug-free</em> applications that fit your exact needs" }
+
+p { "Using 'iterative' development we give you regular, frequent, progress updates that you can see.  We deliver the application a feature at a time - you feed back, we modify and then move on to the next feature.  In other words you get <em>exactly what you want</em>, faster and more reliably.  "}
+
+p { "If you have a good idea of what you need, 3hv can offer a fixed price quotation.  In other words, we offer you a price and <em>stick to it</em>.  If you only know what you want when you see it, we can offer our 'iterative' service; work is defined in daily (&pound;300) or weekly (&pound;1400) chunks and you review each chunk at the end of the iteration.  " }
+
+p.small_print "Fixed price quotations depend upon a detailed specification of requirements.  Depending upon the size of the job, a charge may be incurred to build this specification.  "
+
+h2 "Web Sites"
+
+p { "Perfect for medium and small companies, organisations and groups, a 3hv hosted web-site offers web-pages, image galleries, discussion forums and podcasts that you can <em>update yourself</em>.  We provide the software, manuals and the hosting, you provide the ideas and the domain name (web address)." }
+
+p { "Prices start from &pound;400 for the first year (for setup and hosting), with subsequent years costing &pound;50 (hosting).  A number of standard templates are available - however, we can build a custom design if required" }
+
+p.small_print "Web-sites are built upon the Drupal platform.  Whilst we endeavour to maximise site availability, 3hv cannot offer guaranteed uptime with our standard package.  3hv does not offer email hosting services.  "
+
+h1 "What next?"
+
+p do
+  link_to 'Contact 3hv', seo_path('contact').to_s
+  text " today to discuss your requirements.  We're friendly, won't push you to buy anything you don't need but if 3hv can help, you won't regret it.  "
+end
+
+p.small_print "All prices are exclusive of UK VAT where applicable. "
+

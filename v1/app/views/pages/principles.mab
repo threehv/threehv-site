@@ -1,0 +1,30 @@
+h1 "Principles"
+
+p "3hv believes in: "
+
+ul do
+  li do 
+    h2 "Communications"
+    p "Plain English, full documentation, no jargon, itemised, easy to understand, billing.  "
+  end
+  li do
+    h2 "Transparency"
+    p "Trust, honesty, understanding and relationships.  "
+  end
+  li do
+    h2 "Integrity"
+    p "Doing the right thing and walking away rather than making the wrong deal.  "
+  end
+  li do
+    h2 "Greatness"
+    p "Enjoyment, humour, happiness and personality"
+  end
+  li do
+    h2 "Organisation"
+    p "Reliability, professionalism, punctuality, promises and delivery.  "
+  end
+  li do
+    h2 "Creativity"
+    p "Innovation, originality, excitement and passion.  "
+  end
+end

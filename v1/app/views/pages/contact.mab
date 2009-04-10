@@ -1,0 +1,20 @@
+h1 "Contact 3hv"
+
+p "3hv Ltd is registered in England with company number 6368835.  "
+
+p "Registered Address: 3 Holmwood View, Leeds, England, LS6 4NG.  "
+
+p do
+  text "Email: "
+  mail_to 'info@3hv.co.uk', nil, :encode => "hex", :replace_at => ' at ', :replace_dot => ' dot '
+end
+
+p 'Telephone: +44 (0) 113 815 1833'
+
+p 'Mobile: +44 (0) 7525 171 557'
+
+p 'Skype: rahoulbaruah'
+
+p 'Windows Live/MSN: baz at moog dot org dot uk'
+
+p 'AIM: rahoulbaruah'

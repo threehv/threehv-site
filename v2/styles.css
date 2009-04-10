@@ -1,0 +1,166 @@
+/* @group Basic */
+
+/* Basics */
+
+.clearfix:after {
+  clear:both;
+  content: ".";
+  display:  block
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+p,em{
+  margin: 0;
+  padding: 0;
+  font-size: 9pt;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 9pt;
+  background: #e6e6e6;
+  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  color: #333;
+}
+
+blockquote  {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 2pt;
+  background: #FFF;
+	color: #808080;
+	font: italic 8pt "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+	border-left: 4pt solid #e6e6e6;
+	text-align: center;
+}
+
+/* Links */
+
+a img, iframe { border: none; }
+
+a, a:link, a:visited, a:hover, a:active {
+  font-size: 9pt;
+}
+a:focus{
+  outline: none;
+}
+
+/* Headers */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 9pt;
+  font-family: "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+h6 { 
+  font-size: 8pt;
+}
+h5 { 
+  font-size: 9pt;
+}
+h4 { 
+  font-size: 10pt;
+}
+h3 { 
+  font-size: 11pt;
+}
+h2 { 
+  	font-size: 12pt;
+	font-variant: small-caps;
+	margin-bottom: 4pt;
+}
+h1 {
+	font-size: 24pt;
+	text-align: center;
+	padding: 36pt;
+	font-variant: small-caps;
+	color: #940000;
+}
+
+/* Lists */
+ul, ol, dl, li, dt, dd {
+  margin: 0;
+  padding: 0;
+  font-size: 9pt;
+}
+ul.menu li {
+  display: inline;
+}
+/* Forms */
+form, fieldset {
+  margin: 0;
+  padding: 0;
+}
+fieldset { 
+	border: 1px solid #000; 
+}
+legend {
+  padding: 0;
+  color: #333;
+}
+input, textarea, select {
+  margin: 0;
+  padding: 1px;
+  font-size: 100%;
+  font-family: inherit;
+}
+select { 
+  padding: 0; 
+}
+
+
+/* @end */
+
+/* @group Index */
+
+div#page-wrapper {
+	width:  576pt;
+	background:  #fff;
+	margin: 36pt auto 36pt auto;
+	padding:  36pt 12pt 36pt 12pt;
+}
+
+div.section {
+	clear: both;
+	text-align: center;
+	padding: 12pt;
+}
+
+div.section ul {
+	text-align: center;
+	width:  552pt;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+div.section ul li {
+	display: inline-block;	
+	width:  242pt;
+	min-height: 160pt;
+	margin: 12pt;
+	vertical-align: top;
+	list-style: none;
+}
+
+div.section ul li blockquote {
+	margin-top: 6pt;
+	margin-bottom: 6pt;	
+}
+
+div.section ul li a img {
+	width:  160pt;
+	min-height:  36pt;
+}
+
+div.section ul li p {
+	margin-bottom: 4pt;
+}
+
+/* @end */
+

@@ -1,0 +1,321 @@
+# Logfile created on Fri Jan 18 12:33:50 +0000 2008 by /
+  [4;36;1mSQL (0.000291)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000944)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000713)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'hello_world') LIMIT 1[0m
+  [4;35;1mSQL (0.000281)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000320)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.001075)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'something_page') LIMIT 1[0m
+  [4;36;1mSQL (0.000324)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000199)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000970)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'web-development') LIMIT 1[0m
+  [4;35;1mSQL (0.000252)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000223)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000673)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'whatever') LIMIT 1[0m
+  [4;36;1mSQL (0.000245)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000288)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000180)[0m   [0mBEGIN[0m
+
+
+Processing HomeController#show (for 0.0.0.0 at 2008-01-18 12:33:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00186)
+Completed in 0.03980 (25 reqs/sec) | Rendering: 0.03713 (93%) | DB: 0.00047 (1%) | 200 OK [http://test.host/home]
+  [4;36;1mSQL (0.000289)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000216)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 12:33:57) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"about", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionaboutlayoutfalse within layouts/threehv
+Rendering pages/about
+Rendered /layouts/_google_analytics (0.00336)
+Completed in 0.07850 (12 reqs/sec) | Rendering: 0.07601 (96%) | DB: 0.00050 (0%) | 200 OK [http://test.host/about]
+  [4;36;1mSQL (0.000268)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000197)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 12:33:57) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"contact", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actioncontactlayoutfalse within layouts/threehv
+Rendering pages/contact
+Rendered /layouts/_google_analytics (0.00154)
+Completed in 0.04379 (22 reqs/sec) | Rendering: 0.04268 (97%) | DB: 0.00047 (1%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000235)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000150)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 12:33:57) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"principles", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionprincipleslayoutfalse within layouts/threehv
+Rendering pages/principles
+Rendered /layouts/_google_analytics (0.00150)
+Completed in 0.05144 (19 reqs/sec) | Rendering: 0.05104 (99%) | DB: 0.00039 (0%) | 200 OK [http://test.host/principles]
+  [4;36;1mSQL (0.000259)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000334)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 12:33:57) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"services", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionserviceslayoutfalse within layouts/threehv
+Rendering pages/services
+Rendered /layouts/_google_analytics (0.00149)
+Completed in 0.06981 (14 reqs/sec) | Rendering: 0.06947 (99%) | DB: 0.00059 (0%) | 200 OK [http://test.host/services]
+  [4;36;1mSQL (0.000209)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000184)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 12:33:57) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"showcase", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionshowcaselayoutfalse within layouts/threehv
+Rendering pages/showcase
+Rendered /layouts/_google_analytics (0.00144)
+Completed in 0.08518 (11 reqs/sec) | Rendering: 0.08484 (99%) | DB: 0.00039 (0%) | 200 OK [http://test.host/showcase]
+  [4;36;1mSQL (0.000231)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000294)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000929)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000745)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'hello_world') LIMIT 1[0m
+  [4;35;1mSQL (0.000226)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000267)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000827)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'something_page') LIMIT 1[0m
+  [4;36;1mSQL (0.000239)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000162)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000768)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'web-development') LIMIT 1[0m
+  [4;35;1mSQL (0.000327)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000216)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000591)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'whatever') LIMIT 1[0m
+  [4;36;1mSQL (0.000250)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000310)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000182)[0m   [0mBEGIN[0m
+
+
+Processing HomeController#show (for 0.0.0.0 at 2008-01-18 13:21:08) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00204)
+Completed in 0.03609 (27 reqs/sec) | Rendering: 0.03342 (92%) | DB: 0.00049 (1%) | 200 OK [http://test.host/home]
+  [4;36;1mSQL (0.000245)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000175)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:21:08) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"about", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionaboutlayoutfalse within layouts/threehv
+Rendering pages/about
+Rendered /layouts/_google_analytics (0.00239)
+Completed in 0.07715 (12 reqs/sec) | Rendering: 0.07489 (97%) | DB: 0.00042 (0%) | 200 OK [http://test.host/about]
+  [4;36;1mSQL (0.000261)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000213)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:21:08) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"contact", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actioncontactlayoutfalse within layouts/threehv
+Rendering pages/contact
+Rendered /layouts/_google_analytics (0.00159)
+Completed in 0.04601 (21 reqs/sec) | Rendering: 0.04484 (97%) | DB: 0.00047 (1%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000227)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000173)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:21:08) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"principles", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionprincipleslayoutfalse within layouts/threehv
+Rendering pages/principles
+Rendered /layouts/_google_analytics (0.00144)
+Completed in 0.05438 (18 reqs/sec) | Rendering: 0.05395 (99%) | DB: 0.00040 (0%) | 200 OK [http://test.host/principles]
+  [4;36;1mSQL (0.000309)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000384)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:21:08) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"services", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionserviceslayoutfalse within layouts/threehv
+Rendering pages/services
+Rendered /layouts/_google_analytics (0.00144)
+Completed in 0.12979 (7 reqs/sec) | Rendering: 0.12940 (99%) | DB: 0.00069 (0%) | 200 OK [http://test.host/services]
+  [4;36;1mSQL (0.000230)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000308)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:21:08) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"showcase", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionshowcaselayoutfalse within layouts/threehv
+Rendering pages/showcase
+Rendered /layouts/_google_analytics (0.00154)
+Completed in 0.09229 (10 reqs/sec) | Rendering: 0.09194 (99%) | DB: 0.00054 (0%) | 200 OK [http://test.host/showcase]
+  [4;36;1mSQL (0.000257)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000289)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.001080)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000635)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'hello_world') LIMIT 1[0m
+  [4;35;1mSQL (0.000255)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000294)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000864)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'something_page') LIMIT 1[0m
+  [4;36;1mSQL (0.000277)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000228)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000829)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'web-development') LIMIT 1[0m
+  [4;35;1mSQL (0.000183)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000206)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000659)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'whatever') LIMIT 1[0m
+  [4;36;1mSQL (0.000210)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000288)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000182)[0m   [0mBEGIN[0m
+
+
+Processing HomeController#show (for 0.0.0.0 at 2008-01-18 13:57:16) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00186)
+Completed in 1.24915 (0 reqs/sec) | Rendering: 0.04219 (3%) | DB: 0.00047 (0%) | 200 OK [http://test.host/home]
+  [4;36;1mSQL (0.000243)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000217)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:57:17) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"about", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionaboutlayoutfalse within layouts/threehv
+Rendering pages/about
+Rendered /layouts/_google_analytics (0.00171)
+Completed in 0.26292 (3 reqs/sec) | Rendering: 0.26002 (98%) | DB: 0.00046 (0%) | 200 OK [http://test.host/about]
+  [4;36;1mSQL (0.000260)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000192)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:57:17) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"contact", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actioncontactlayoutfalse within layouts/threehv
+Rendering pages/contact
+Rendered /layouts/_google_analytics (0.00189)
+Completed in 0.04670 (21 reqs/sec) | Rendering: 0.04605 (98%) | DB: 0.00045 (0%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000298)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000153)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:57:17) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"principles", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionprincipleslayoutfalse within layouts/threehv
+Rendering pages/principles
+Rendered /layouts/_google_analytics (0.00196)
+Completed in 0.05507 (18 reqs/sec) | Rendering: 0.05465 (99%) | DB: 0.00045 (0%) | 200 OK [http://test.host/principles]
+  [4;36;1mSQL (0.000242)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000260)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:57:17) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"services", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionserviceslayoutfalse within layouts/threehv
+Rendering pages/services
+Rendered /layouts/_google_analytics (0.00167)
+Completed in 0.13114 (7 reqs/sec) | Rendering: 0.13078 (99%) | DB: 0.00050 (0%) | 200 OK [http://test.host/services]
+  [4;36;1mSQL (0.000235)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000192)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:57:18) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"showcase", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionshowcaselayoutfalse within layouts/threehv
+Rendering pages/showcase
+Rendered /layouts/_google_analytics (0.00156)
+Completed in 0.09170 (10 reqs/sec) | Rendering: 0.09134 (99%) | DB: 0.00043 (0%) | 200 OK [http://test.host/showcase]
+  [4;36;1mSQL (0.000225)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000298)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.001154)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000695)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'hello_world') LIMIT 1[0m
+  [4;35;1mSQL (0.000236)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000307)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000905)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'something_page') LIMIT 1[0m
+  [4;36;1mSQL (0.000285)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000178)[0m   [0mBEGIN[0m
+  [4;36;1mPage Load (0.000901)[0m   [0;1mSELECT * FROM pages WHERE (pages.seo_title = 'web-development') LIMIT 1[0m
+  [4;35;1mSQL (0.000205)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000264)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Load (0.000578)[0m   [0mSELECT * FROM pages WHERE (pages.seo_title = 'whatever') LIMIT 1[0m
+  [4;36;1mSQL (0.000240)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000291)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000187)[0m   [0mBEGIN[0m
+
+
+Processing HomeController#show (for 0.0.0.0 at 2008-01-18 13:58:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"home"}
+Rendering  within layouts/threehv_no_menu
+Rendering home/show
+Rendered /layouts/_google_analytics (0.00210)
+Completed in 16.05631 (0 reqs/sec) | Rendering: 0.04360 (0%) | DB: 0.00048 (0%) | 200 OK [http://test.host/home]
+  [4;36;1mSQL (0.000250)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000273)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:58:19) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"about", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionaboutlayoutfalse within layouts/threehv
+Rendering pages/about
+Rendered /layouts/_google_analytics (0.00174)
+Completed in 0.08872 (11 reqs/sec) | Rendering: 0.08494 (95%) | DB: 0.00052 (0%) | 200 OK [http://test.host/about]
+  [4;36;1mSQL (0.000254)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000198)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:58:19) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"contact", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actioncontactlayoutfalse within layouts/threehv
+Rendering pages/contact
+Rendered /layouts/_google_analytics (0.00232)
+Completed in 0.23333 (4 reqs/sec) | Rendering: 0.23261 (99%) | DB: 0.00045 (0%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000243)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000251)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:58:20) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"principles", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionprincipleslayoutfalse within layouts/threehv
+Rendering pages/principles
+Rendered /layouts/_google_analytics (0.00198)
+Completed in 0.05533 (18 reqs/sec) | Rendering: 0.05483 (99%) | DB: 0.00049 (0%) | 200 OK [http://test.host/principles]
+  [4;36;1mSQL (0.000302)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000149)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:58:20) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"services", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionserviceslayoutfalse within layouts/threehv
+Rendering pages/services
+Rendered /layouts/_google_analytics (0.00167)
+Completed in 0.13133 (7 reqs/sec) | Rendering: 0.13095 (99%) | DB: 0.00045 (0%) | 200 OK [http://test.host/services]
+  [4;36;1mSQL (0.000213)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000223)[0m   [0mBEGIN[0m
+
+
+Processing PagesController#show_by_seo_title (for 0.0.0.0 at 2008-01-18 13:58:20) [GET]
+  Session ID: 
+  Parameters: {"seo_title"=>"showcase", "action"=>"show_by_seo_title", "controller"=>"pages"}
+Rendering actionshowcaselayoutfalse within layouts/threehv
+Rendering pages/showcase
+Rendered /layouts/_google_analytics (0.00156)
+Completed in 0.09244 (10 reqs/sec) | Rendering: 0.09206 (99%) | DB: 0.00044 (0%) | 200 OK [http://test.host/showcase]
+  [4;36;1mSQL (0.000276)[0m   [0;1mROLLBACK[0m

@@ -1,0 +1,45 @@
+div.keywords! do
+  p "Ruby on Rails expertise, web development and consultancy"
+  p "by Rahoul Baruah in Leeds, United Kingdom"
+end
+
+div.logo! do
+  h1 do
+    link_to image_tag('/images/3hvLogo.png', :alt => '3hv'), seo_path('about').to_s
+  end
+end
+
+div.sub_title! do
+  h2 do
+    link_to 'execution is everything', seo_path('about').to_s
+  end
+  ul do
+    li do
+      link_to 'services', seo_path('services').to_s
+    end
+    li do
+      link_to 'principles', seo_path('principles').to_s
+    end
+    li do
+      link_to 'showcase', seo_path('showcase').to_s
+    end
+    li do
+      link_to 'blog', blog_path
+    end
+    li do
+      link_to 'contact', seo_path('contact').to_s
+    end
+  end
+end
+
+div.blog_posts do
+  h3 "Latest Blog Posts"
+  ul { @articles.each { | article | render_rss article } }
+end unless @articles.empty? 
+
+div.blog_posts do
+  h3 do
+    link_to "Latest Tweets", "http://www.twitter.com/xbaz"
+  end
+  ul { @tweets.each { | tweet | render_rss tweet } } 
+end unless @tweets.empty?

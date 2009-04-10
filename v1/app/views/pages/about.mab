@@ -1,0 +1,35 @@
+h1 "3hv - execution is everything"
+ul do
+  li do
+    h2 "You want your project to be a success"
+    p { "Most software projects fail because of poor communications.  3hv explains exactly <em>what</em> we will be building, <em>how</em> much it will cost, <em>when</em> it will be delivered and <em>why</em> it works the way it does" }
+  end
+  li do 
+    h2 "You want your project to be actively used"
+    p { "The greatest idea is nothing without a fantastic implementation.  We can build what you want and make it <em>delight</em> your users.  We also excel in building <em>simple, well-designed systems</em> that fit with the people who use them" }
+  end
+  li do 
+    h2 "You want to know what you are paying for"
+    p { "3hv offers <em>fully-itemised</em> billing, with each line in <em>plain English</em>, so you know exactly what you are paying for" }
+  end
+  li do
+    h2 "You need to trust your suppliers"
+    p do
+      text "3hv is"
+      link_to "principled", seo_path('principles').to_s
+      text " and has over ten years <em>experience</em> of building and delivering "
+      link_to "software projects", seo_path('showcase').to_s
+      text ".  This means 'business analysis and requirements gathering' (understanding what you want and need), 'designing and managing databases' (so your information is accessible when you need it but locked away from prying eyes) and 'building user experiences' (so your users need minimal training and love using the system)"
+    end
+  end
+end
+
+h2 "About the company"
+
+p do
+  text "3hv is a small software company, based in Leeds, England, specialising in "
+  link_to "Ruby on Rails development", seo_path('web_development')
+  text ".  "
+end
+p "Owned and run by Rahoul Baruah, a software developer with over ten years experience within the industry, 3hv can deliver the web-sites and applications you need, in plain English with easy to understand billing.  "
+p "Technical excellence, fantastic service, great organisation and simple communications are what 3hv is all about.  "

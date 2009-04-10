@@ -1,0 +1,58 @@
+h1 "Showcase"
+
+p "3hv is available to develop your project.  "
+p do
+  link_to "Contact us", seo_path('contact').to_s
+  text " for a friendly, no obligation chat"
+end
+
+h2 "Interim Partners"
+
+link_to image_tag('/images/showcase/interim_partners.png'), 'http://www.interimpartners.com'
+
+p "Interim Partners, based in Harrogate and London, offer recruitment for Interim Managers - specialist, temporary, managers brought in to deal with change within an organisation.  "
+
+p do
+  blockquote '"we now ... have a website that has finally caught up with the speed of modern technology!"'
+  text "Richard Fox, Head of Marketing, Interim Partners"
+end
+
+h2 "Brightbox"
+
+link_to image_tag('/images/showcase/brightbox_logo.png'), 'http://www.brightbox.co.uk/a/dplsk'
+
+p "Brightbox offers hosting specifically designed for Ruby on Rails.  Much of the Brightbox site was already built but 3hv provided the payment processing and affiliate sales handling.  "
+
+p do
+  blockquote '"Rahoul is an outstanding developer. He easily sussed out a complex Rails application of ours and the code he wrote was superb with awesome test coverage. He\'s also a great communicator, keeping us in the loop - critical when working remotely. He couldn\'t be better if he was made out of pizza and pooped diamonds."  '
+  text "John Leach, Head Geek, Brightbox"
+end
+
+h2 "Reztec"
+
+link_to image_tag('/images/showcase/reztec.jpg'), 'http://www.reztec.com'
+
+p "A large end-to-end business system for training providers, Rahoul Baruah acted as system architect, project manager and lead developer for this complex development, that has since been deployed in large organisations and local authorities.  "
+
+p do
+  blockquote '"Rahoul is an exceptionally talented developer, a true innovator who looks for new technology to gain the leading edge. In the 3 years I have worked with Rahoul I found him to be a dedicated & hardworking developer, who is able to look beyond the code to see the impact of what is being done & how it is being done. The enthusiasm he has combined with the ability to work with colleagues, customers & management make him an absolute asset to any company as an employee, consultant or partner. I highly recommend him."  '
+  text "Sarah Thompson, Customer Services, iDynamics Ltd"
+end
+
+h2 "Reztec Express"
+
+link_to image_tag('/images/showcase/reztec_express.png'), 'http://www.reztec-express.com'
+
+p "A subscription web-service for small training providers, Rahoul Baruah designed both the service itself as well as the initial promotional web site.  Sadly the service itself has since been discontinued"
+
+p do
+  blockquote '"Rahoul never overcomplicated or oversimplified, which is something that one rarely sees in programming but is a pleasure when you do."  '
+  text "Richard Smith, Developer, iDynamics Ltd."
+end
+
+h2 "Verb Yorkshire"
+
+link_to image_tag('/images/showcase/verb.png'), 'http://www.verbyorkshire.org.uk'
+
+p "Developed for the Arts Council England, Verb Yorkshire is a showcase for BME artists in the Yorkshire area.  The site itself uses a custom-written simple content management system allowing Verb staff to keep the contents up-to-date without intervention by 3hv"
+
