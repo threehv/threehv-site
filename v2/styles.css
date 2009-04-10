@@ -83,6 +83,11 @@ h1 {
 	color: #940000;
 }
 
+p.subtitle {
+	font-size: 12pt;
+	text-transform: none;
+}
+
 /* Lists */
 ul, ol, dl, li, dt, dd {
   margin: 0;
