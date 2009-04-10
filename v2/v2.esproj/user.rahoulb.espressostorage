@@ -15,6 +15,14 @@
 			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
+				<key>URL</key>
+				<string>file:///Volumes/src/threehv/website/v2/index.html</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Volumes/src/threehv/website/v2/deploy</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
 			</dict>
 		</array>
 	</dict>
